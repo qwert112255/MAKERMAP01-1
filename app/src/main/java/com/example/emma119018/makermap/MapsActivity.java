@@ -62,278 +62,324 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng SBH = new LatLng(24.984116, 121.451362);
         mMap.addMarker(new MarkerOptions()
                 .position(SBH)
-                .title("新北高中Fablab"));
+                .title("新北高中Fablab")
+                .snippet("新北市土城區學府路一段241號"+'\n'+"02-22615427"));
         makerOpt.position(SBH);
 
 
         LatLng HCH = new LatLng(25.007288, 121.447562);
         mMap.addMarker(new MarkerOptions()
                 .position(HCH)
-                .title("華僑高中FabLab"));
+                .title("華僑高中FabLab")
+                .snippet("新北市板橋區大觀路一段32號"+'\n'+"02-29684131#201"));
         makerOpt.position(HCH);
 
         LatLng KMS = new LatLng(25.063048, 121.500932);
         mMap.addMarker(new MarkerOptions()
                 .position(KMS)
-                .title("Kick2real Maker Space"));
+                .title("Kick2real Maker Space")
+                .snippet("新北市三重區重新路一段108號3樓"+'\n'+"02-89720218#312"));
         makerOpt.position(KMS);
 
         LatLng YDU = new LatLng(24.995194, 121.453119);
         mMap.addMarker(new MarkerOptions()
                 .position(YDU)
-                .title("亞東技術學院工商業設計系"));
+                .title("亞東技術學院工商業設計系")
+                .snippet("新北市板橋區四川路二段58號"+'\n'+"02-77380145#3302"));
         makerOpt.position(YDU);
 
         LatLng CH = new LatLng(24.994027, 121.478425);
         mMap.addMarker(new MarkerOptions()
                 .position(CH)
-                .title("創客中和"));
+                .title("創客中和")
+                .snippet("新北市中和區連城路460號"+'\n'+"02-22227146"));
         makerOpt.position(CH);
 
         LatLng TUA = new LatLng(25.002459, 121.445736);
         mMap.addMarker(new MarkerOptions()
                 .position(TUA)
-                .title("國立台灣藝術大學文化創意產學園區"));
+                .title("國立台灣藝術大學文化創意產學園區")
+                .snippet("新北市板橋區大觀路二段28號"+'\n'+"02-82751414#204"));
         makerOpt.position(TUA);
 
         LatLng DM = new LatLng(25.084958, 121.662885);
         mMap.addMarker(new MarkerOptions()
                 .position(DM)
-                .title("夢基地木創"));
+                .title("夢基地木創")
+                .snippet("新北市汐止區鄉長路2段169號"+'\n'+"02-26426675/0987-840-995"));
         makerOpt.position(DM);
 
         LatLng S7W = new LatLng(24.976492, 121.541913);
         mMap.addMarker(new MarkerOptions()
                 .position(S7W)
-                .title("小七工作站"));
+                .title("小七工作站")
+                .snippet("新北市新店區北新路二段171巷12號1樓"+'\n'+"0988-856-901"));
         makerOpt.position(S7W);
 
         LatLng DLU = new LatLng(24.972325, 121.455768);
         mMap.addMarker(new MarkerOptions()
                 .position(DLU)
-                .title("德霖技術學院3D列印實驗室"));
+                .title("德霖技術學院3D列印實驗室")
+                .snippet("新北市土城區青雲路380巷1號機械館3樓308"+'\n'+"02-22733567#396"));
         makerOpt.position(DLU);
 
         LatLng GJH = new LatLng(25.073832, 121.488675);
         mMap.addMarker(new MarkerOptions()
                 .position(GJH)
-                .title("私立格致高中學FabLab"));
+                .title("私立格致高中學FabLab")
+                .snippet("新北市三重區大智街260號"+'\n'+"02-29855892"));
         makerOpt.position(GJH);
 
         LatLng RFJ = new LatLng(25.105614, 121.817488);
         mMap.addMarker(new MarkerOptions()
                 .position(RFJ)
-                .title("瑞芳國中"));
+                .title("瑞芳國中")
+                .snippet("新北市瑞芳區三爪子坑路1號"+'\n'+"02-24972145#214"));
         makerOpt.position(RFJ);
 
         LatLng DNU = new LatLng(25.003296, 121.604445);
         mMap.addMarker(new MarkerOptions()
                 .position(DNU)
-                .title("東南科技大學數位模型製作空間"));
+                .title("東南科技大學數位模型製作空間")
+                .snippet("新北市深坑區北深路三段152號"+'\n'+"02-86625974"));
         makerOpt.position(DNU);
 
         LatLng IOT = new LatLng(25.066270, 121.449388);
         mMap.addMarker(new MarkerOptions()
                 .position(IOT)
-                .title("物聯網創客基地"));
+                .title("物聯網創客基地")
+                .snippet("新北市五股區五工五路47號7樓"+'\n'+"02-89956399#2799"));
         makerOpt.position(IOT);
 
         LatLng SHU = new LatLng(25.226969, 121.451654);
         mMap.addMarker(new MarkerOptions()
                 .position(SHU)
-                .title("聖約翰科技大學3D設計列印中心"));
+                .title("聖約翰科技大學3D設計列印中心")
+                .snippet("新北市淡水區淡金路4段499號"+'\n'+"02-28013131"));
         makerOpt.position(SHU);
 
         LatLng RS = new LatLng(25.058565, 121.543935);
         mMap.addMarker(new MarkerOptions()
                 .position(RS)
-                .title("3D如水同學會"));
+                .title("3D如水同學會")
+                .snippet("台北市中山區復興北路272號2樓"+'\n'+"02-25076962"));
         makerOpt.position(RS);
 
         LatLng FCT = new LatLng(25.044150, 121.529441);
         mMap.addMarker(new MarkerOptions()
                 .position(FCT)
-                .title("FabCafe Taipei"));
+                .title("FabCafe Taipei")
+                .snippet("台北市中正區八德路一段1號"+'\n'+"02-33224749"));
         makerOpt.position(FCT);
 
         LatLng FBT = new LatLng(25.029191, 121.516080);
         mMap.addMarker(new MarkerOptions()
                 .position(FBT)
-                .title("Fablab Taipei"));
+                .title("Fablab Taipei")
+                .snippet("台北市重慶南路三段15巷9號1樓"+'\n'+"02-23223387"));
         makerOpt.position(FBT);
 
         LatLng MBT = new LatLng(25.041241, 121.529483);
         mMap.addMarker(new MarkerOptions()
                 .position(MBT)
-                .title("Markerbar Taipei"));
+                .title("Markerbar Taipei")
+                .snippet("台北市中正區金山南路一段9號5樓"+'\n'+"02-23221772"));
         makerOpt.position(MBT);
 
         LatLng MP = new LatLng(25.025042, 121.523137);
         mMap.addMarker(new MarkerOptions()
                 .position(MP)
-                .title("MakerPro"));
+                .title("MakerPro")
+                .snippet("台北市南昌路二段146號2樓"+'\n'+"02-23679308"));
         makerOpt.position(MP);
 
         LatLng NTU = new LatLng(25.015200, 121.537509);
         mMap.addMarker(new MarkerOptions()
                 .position(NTU)
-                .title("NTUMaker台灣大學"));
+                .title("NTUMaker台灣大學")
+                .snippet("台北市大安區羅斯福路四段1號"+'\n'+"02-33663366"));
         makerOpt.position(NTU);
 
         LatLng OT = new LatLng(25.010834, 121.532407);
         mMap.addMarker(new MarkerOptions()
                 .position(OT)
-                .title("Openlab Taipei"));
+                .title("Openlab Taipei")
+                .snippet("台北市中正區汀州路三段230巷37弄8號"+'\n'+"02-23645313"));
         makerOpt.position(OT);
 
         LatLng TH = new LatLng(25.052901, 121.516884);
         mMap.addMarker(new MarkerOptions()
                 .position(TH)
-                .title("Taipei Hackerspace"));
+                .title("Taipei Hackerspace")
+                .snippet("台北市太原路133巷26號4樓"+'\n'+"02-25507630"));
         makerOpt.position(TH);
 
         LatLng TSE = new LatLng(24.990414, 121.559161);
         mMap.addMarker(new MarkerOptions()
                 .position(TSE)
-                .title("私立再興小學FabLab"));
+                .title("私立再興小學FabLab")
+                .snippet("台北市文山區興隆路四段2號"+'\n'+"02-29371118/02-29371119"));
         makerOpt.position(TSE);
 
         LatLng TTU = new LatLng(25.009193, 121.539071);
         mMap.addMarker(new MarkerOptions()
                 .position(TTU)
-                .title("國立台灣科技大學"));
+                .title("國立台灣科技大學")
+                .snippet("台北市羅斯福路四段113巷19弄3號"+'\n'+"02-27333141#7130"));
         makerOpt.position(TTU);
 
         LatLng TUD = new LatLng(25.024624, 121.544637);
         mMap.addMarker(new MarkerOptions()
                 .position(TUD)
-                .title("國立台北教育大學創意自造中心&創客實驗室"));
+                .title("國立台北教育大學創意自造中心&創客實驗室")
+                .snippet("台北市大安區和平東路二段134號"+'\n'+"02-27321104#63465/#70010"));
         makerOpt.position(TUD);
 
         LatLng TNU = new LatLng(25.025951, 121.527489);
         mMap.addMarker(new MarkerOptions()
                 .position(TNU)
-                .title("國立臺灣師範大學自造大師基地"));
+                .title("國立臺灣師範大學自造大師基地")
+                .snippet("台北市和平東路一段162號"+'\n'+"02-77343430/02-77341242"));
         makerOpt.position(TNU);
 
         LatLng DMC = new LatLng(25.071328, 121.595649);
         mMap.addMarker(new MarkerOptions()
                 .position(DMC)
-                .title("國防醫學院Fablab"));
+                .title("國防醫學院Fablab")
+                .snippet("台北市內湖區民權東路六段161號"+'\n'+"0931-684-890"));
         makerOpt.position(DMC);
 
         LatLng SCU = new LatLng(25.083272, 121.545147);
         mMap.addMarker(new MarkerOptions()
                 .position(SCU)
-                .title("實踐大學媒體傳達設計學系FABLAB"));
+                .title("實踐大學媒體傳達設計學系FABLAB")
+                .snippet("台北市大直街70號"+'\n'+"02-25381111#7328"));
         makerOpt.position(SCU);
 
         LatLng DTU = new LatLng(25.067154, 121.521804);
         mMap.addMarker(new MarkerOptions()
                 .position(DTU)
-                .title("大同大學未來產房"));
+                .title("大同大學未來產房")
+                .snippet("台北市中山區中山北路三段40號"+'\n'+"02-55760311"));
         makerOpt.position(DTU);
 
         LatLng LDD = new LatLng(25.022494, 121.529927);
         mMap.addMarker(new MarkerOptions()
                 .position(LDD)
-                .title("綠點點點點 - 社區營造基地"));
+                .title("綠點點點點 - 社區營造基地")
+                .snippet("台北市大安區古風里雲和街72巷9號"+'\n'+"0963-928-391"));
         makerOpt.position(LDD);
 
         LatLng TY = new LatLng(25.038982, 121.522255);
         mMap.addMarker(new MarkerOptions()
                 .position(TY)
-                .title("台北市青少年發展處創新學習基地"));
+                .title("台北市青少年發展處創新學習基地")
+                .snippet("台北市中正區仁愛路一段17號9樓"+'\n'+"02-23514078#1113"));
         makerOpt.position(TY);
 
         LatLng YYD = new LatLng(25.085563, 121.523113);
         mMap.addMarker(new MarkerOptions()
                 .position(YYD)
-                .title("英業達雲豹1號夢工廠"));
+                .title("英業達雲豹1號夢工廠")
+                .snippet("台北市士林區承德路四段166號"+'\n'+"02-28810721"));
         makerOpt.position(YYD);
 
         LatLng TNUH = new LatLng(25.033659, 121.540488);
         mMap.addMarker(new MarkerOptions()
                 .position(TNUH)
-                .title("師大附中附製工坊"));
+                .title("師大附中附製工坊")
+                .snippet("台北市大安區信義路三段143號"+'\n'+"02-27075215"));
         makerOpt.position(TNUH);
 
         LatLng MK = new LatLng(25.040631, 121.538083);
         mMap.addMarker(new MarkerOptions()
                 .position(MK)
-                .title("魅客空間"));
+                .title("魅客空間")
+                .snippet("台北市大安區建國南路一段177號"+'\n'+"02-77085090"));
         makerOpt.position(MK);
 
         LatLng IF = new LatLng(25.042729, 121.538529);
         mMap.addMarker(new MarkerOptions()
                 .position(IF)
-                .title("點子工場 / 自造工坊"));
+                .title("點子工場 / 自造工坊")
+                .snippet("台北市忠孝東路三段193巷"+'\n'+"02-27712171#1460"));
         makerOpt.position(IF);
 
         LatLng DMS = new LatLng(25.135276, 121.729937);
         mMap.addMarker(new MarkerOptions()
                 .position(DMS)
-                .title("3D創客新學園"));
+                .title("3D創客新學園")
+                .snippet("基隆市安樂區安一路360號"+'\n'+"02-24236600"));
         makerOpt.position(DMS);
 
         LatLng CYU = new LatLng(25.131924, 121.754456);
         mMap.addMarker(new MarkerOptions()
                 .position(CYU)
-                .title("崇右技術學院創意商品設計系"));
+                .title("崇右技術學院創意商品設計系")
+                .snippet("基隆市信義區義七路40號"+'\n'+"02-24237785#556#557"));
         makerOpt.position(CYU);
 
         LatLng AL = new LatLng(24.965604, 121.225492);
         mMap.addMarker(new MarkerOptions()
                 .position(AL)
-                .title("Ark Lab多旋翼工坊"));
+                .title("Ark Lab多旋翼工坊")
+                .snippet("桃園市中壢區環北路390號"+'\n'+"0935-811-226"));
         makerOpt.position(AL);
 
         LatLng LHU = new LatLng(25.017519, 121.402853);
         mMap.addMarker(new MarkerOptions()
                 .position(LHU)
-                .title("龍華科技大學Fablab"));
+                .title("龍華科技大學Fablab")
+                .snippet("桃園市龜山區萬壽路一段300號"+'\n'+"02-82093211#3831"));
         makerOpt.position(LHU);
 
         LatLng NLU = new LatLng(24.978016, 121.255741);
         mMap.addMarker(new MarkerOptions()
                 .position(NLU)
-                .title("內壢高中FabLab"));
+                .title("內壢高中FabLab")
+                .snippet("桃園市中壢區成章四街120號"+'\n'+"03-4528080#211"));
         makerOpt.position(NLU);
 
         LatLng NCU = new LatLng(24.968420, 121.195666);
         mMap.addMarker(new MarkerOptions()
                 .position(NCU)
-                .title("中央大學創意園區"));
+                .title("中央大學創意園區")
+                .snippet("桃園市中壢區中大路300號"+'\n'+"03-4227151"));
         makerOpt.position(NCU);
 
         LatLng CYM = new LatLng(24.957498, 121.240539);
         mMap.addMarker(new MarkerOptions()
                 .position(CYM)
-                .title("中原大學創客夢工廠"));
+                .title("中原大學創客夢工廠")
+                .snippet("桃園市中壢區中北路200號"+'\n'+"03-2654500"));
         makerOpt.position(CYM);
 
         LatLng NYU = new LatLng(24.936878, 121.251668);
         mMap.addMarker(new MarkerOptions()
                 .position(NYU)
-                .title("南亞技術學院 南工創客實驗室"));
+                .title("南亞技術學院 南工創客實驗室")
+                .snippet("桃園市中壢區中山東路三段414號"+'\n'+"03-4361070#6933"));
         makerOpt.position(NYU);
 
         LatLng GTR = new LatLng(25.006105, 121.235557);
         mMap.addMarker(new MarkerOptions()
                 .position(GTR)
-                .title("鋼鐵人實作基地"));
+                .title("鋼鐵人實作基地")
+                .snippet("桃園市中壢區內定16街842號之1"+'\n'+"02-27075215"));
         makerOpt.position(GTR);
 
         LatLng YC = new LatLng(24.965753, 121.225882);
         mMap.addMarker(new MarkerOptions()
                 .position(YC)
-                .title("青創指揮部"));
+                .title("青創指揮部")
+                .snippet("桃園市中壢區環北路390號3樓"+'\n'+"03-4225205"));
         makerOpt.position(YC);
 
         LatLng ICFA = new LatLng(24.888284, 121.133733);
         mMap.addMarker(new MarkerOptions()
                 .position(ICFA)
-                .title("衣啟飛翔創客基地"));
+                .title("衣啟飛翔創客基地")
+                .snippet("桃園市楊梅區秀才路851號"+'\n'+"03-4855368#625#620"));
         makerOpt.position(ICFA);
 
         LatLng ICFB = new LatLng(24.815689, 120.962720);
