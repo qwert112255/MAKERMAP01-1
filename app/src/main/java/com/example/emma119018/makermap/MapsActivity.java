@@ -1,7 +1,9 @@
 package com.example.emma119018.makermap;
 
+import android.support.design.internal.BottomNavigationItemView;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -13,20 +15,13 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import com.roughike.bottombar.BottomBar;
+import com.roughike.bottombar.OnMenuTabClickListener;
+
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
-    }
-
-
+    private BottomBar mBottomBar;
 
     /**
      * Manipulates the map once available.
@@ -741,12 +736,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
-
         LatLng CENTER = new LatLng(23.973875,120.982024);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CENTER,7));
 
         CustomInfoWindowAdapter adapter = new CustomInfoWindowAdapter(MapsActivity.this);
         googleMap.setInfoWindowAdapter(adapter);
 
+
     }
+
 }
