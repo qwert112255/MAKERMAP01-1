@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/date"
-        android:icon="@drawable/ic_date_range_black_24dp"
+        android:icon="@drawable/date"
         android:title="@string/date"
         />
     <item
         android:id="@+id/home"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/home"
         android:title="@string/home"
         />
     <item
         android:id="@+id/location"
-        android:icon="@drawable/ic_my_location_black_24dp"
+        android:icon="@drawable/location"
         android:title="@string/location"
         />
 </menu>
